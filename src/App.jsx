@@ -39,7 +39,7 @@ function App() {
             <div className='bg-black pb-10'>
                 <Header />
                 <Banner />
-                <MovieList title='Thịnh Hành' data={movie.slice(0, 7)} />
+                <MovieList title='Thịnh Hành' data={movie} />
                 <MovieList title='Phim Đề Cử' data={movieRate.slice(0,7)} />
             </div>
         </>
