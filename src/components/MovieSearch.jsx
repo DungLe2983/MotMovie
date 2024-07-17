@@ -1,40 +1,15 @@
 import PropTypes from 'prop-types';
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
 import { useContext } from 'react';
 import { MovieContext } from '../context/MovieProvider';
 
-const responsive = {
-    superLargeDesktop: {
-        // the naming can be any, depends on you.
-        breakpoint: { max: 4000, min: 3000 },
-        items: 10,
-    },
-    desktop: {
-        breakpoint: { max: 3000, min: 1200 },
-        items: 7,
-    },
-    tablet: {
-        breakpoint: { max: 1200, min: 600 },
-        items: 3,
-    },
-    mobile: {
-        breakpoint: { max: 600, min: 0 },
-        items: 2,
-    },
-};
 
-const MovieList = ({ title, data }) => {
-    const { handleTrailer } = useContext(MovieContext);
+const MovieSearch = ({ title, data }) => {
+    const {handleTrailer} = useContext(MovieContext);
     return (
         <div className='text-white p-10 mb-10'>
             <h2 className=' uppercase text-2xl font-bold mb-8'>{title}</h2>
-            <Carousel
-                responsive={responsive}
-                className='flex items-center space-x-4'
-            >
+            <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4'>
                 {data &&
-                    data.length > 0 &&
                     data.map((item) => (
                         <div
                             key={item.id}
@@ -58,10 +33,10 @@ const MovieList = ({ title, data }) => {
                             </div>
                         </div>
                     ))}
-            </Carousel>
+            </div>
+
         </div>
     );
 };
-
-MovieList.propTypes = { title: PropTypes.string, data: PropTypes.array };
-export default MovieList;
+MovieSearch.propTypes = { title: PropTypes.string, data: PropTypes.array };
+export default MovieSearch;
