@@ -6,6 +6,7 @@ import MovieList from './components/MovieList';
 import MovieSearch from './components/MovieSearch';
 import { MovieProvider } from './context/MovieProvider';
 import About from './pages/About';
+import Footer from './components/Footer';
 
 function App() {
     const [movie, setMovie] = useState([]);
@@ -76,7 +77,7 @@ function App() {
                             <Banner />
                             {movieSearch.length > 0 ? (
                                 <MovieSearch
-                                    title={'Ket qua tim kiem'}
+                                    title={'Kết quả tìm kiếm:'}
                                     data={movieSearch}
                                 />
                             ) : (
@@ -93,6 +94,7 @@ function App() {
                             )}
                         </>
                     )}
+                    <Footer />
                 </div>
             </MovieProvider>
         </>

@@ -10,17 +10,17 @@ const Banner = () => {
                         TV Show
                     </p>
                     <div className='flex flex-col gap-4'>
-                        <h2 className='text-white text-md md:text-[40px] font-semibold'>
+                        <h2 className='text-white text-lg md:text-[40px] font-semibold'>
                             Mùa hè yêu dấu của chúng ta
                         </h2>
                         <div className='flex items-center space-x-3'>
-                            <i className='ri-star-fill text-3xl text-yellow-400'></i>
-                            <i className='ri-star-fill text-3xl text-yellow-400'></i>
-                            <i className='ri-star-fill text-3xl text-yellow-400'></i>
-                            <i className='ri-star-fill text-3xl text-yellow-400'></i>
-                            <i className='ri-star-fill text-3xl text-yellow-400'></i>
+                            <i className='ri-star-fill text-xl md:text-3xl text-yellow-400'></i>
+                            <i className='ri-star-fill text-xl md:text-3xl text-yellow-400'></i>
+                            <i className='ri-star-fill text-xl md:text-3xl text-yellow-400'></i>
+                            <i className='ri-star-fill text-xl md:text-3xl text-yellow-400'></i>
+                            <i className='ri-star-fill text-xl md:text-3xl text-yellow-400'></i>
                         </div>
-                        <p className='text-white text-xs md:text-base'>
+                        <p className='text-gray-300 text-xs md:text-base'>
                             A coming-of-age romantic comedy that revolves around
                             Choi Ung (Choi Woo-shik) and Kook Yeon-soo (Kim
                             Da-mi), ex-lovers who broke up with a promise to
@@ -30,13 +30,13 @@ const Banner = () => {
                             together again by their producer friend. The series
                             depicts their complicated feelings and growth.
                         </p>
-                        <p className='text-white text-xs md:text-base'>
+                        <p className='text-gray-300 text-xs md:text-base'>
                             This drama shows what love feels like. Instead of
                             discussing practical issues like family conflicts,
                             it tells a story about throb, memory and dream.
                             Romance is revealed in many small, unnoticed acts.
                         </p>
-                        <div className='flex items-center gap-2'>
+                        <div className='flex items-center gap-2 md:mt-8'>
                             <button className='p-3 bg-black hover:bg-slate-800 text-white font-bold text-xs md:text-sm'>
                                 Chi tiết
                             </button>
