@@ -1,8 +1,46 @@
-# React + Vite
+# MotMovie
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Your ultimate movie destination. Discover, watch, and engage with the best movies and a vibrant community of movie enthusiasts. Lights, camera, action!
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- User-Friendly Interface.
+- Diverse Range of Movie Options.
+- Search Functionality.
+- Explore top trending movies
+- View trailer details
+
+## Requirement
+- Runtime environment:
+    - Node.js 20.10.0+.
+    - Vercel for hosting.
+
+- Development environment:
+    - Node.js 20.10.0+.
+    - React.js 18.2.0+ for frontend development.
+    - Tailwind CSS for styling.
+
+## Installation Guide
+
+To install and run the project locally, follow these steps:
+
+1. Clone this repo.
+2. Run `npm install` to install the dependencies.
+3. Run `npm run dev` to start the server.
+
+## User Guide
+
+You can simply click this [link](https://car-hub-showcase-vaqp.vercel.app/) to get started.
+
+## User Interface
+
+![Home](./demo_ui/mot1.png)
+![Main](./demo_ui/mot2.png)
+![ProdutcDetail](./demo_ui/mot3.png)
+![Cart](./demo_ui/mot4.png)
+![About](./demo_ui/mot5.png)
+
+
+## Authors
+
+[Lê Quốc Dũng](https://github.com/DungLe2983)
