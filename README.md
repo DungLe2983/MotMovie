@@ -30,7 +30,7 @@ To install and run the project locally, follow these steps:
 
 ## User Guide
 
-You can simply click this [link](https://car-hub-showcase-vaqp.vercel.app/) to get started.
+You can simply click this [link](https://mot-movie.vercel.app/) to get started.
 
 ## User Interface
 
